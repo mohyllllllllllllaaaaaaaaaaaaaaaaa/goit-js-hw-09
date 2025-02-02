@@ -15,13 +15,6 @@ function saveToLS(){
 function loadFormLS(key){
     const data = localStorage.getItem(STORAGE_KEY);
     return data ? JSON.parse(data) : null;}
-   // try {
-//const data = JSON.parse(body);
-//return data;
-  //  } catch{
-   //     return body;
-   // }
-//};
 function initPage(){
     const savedData = loadFormLS();
     if (savedData){
