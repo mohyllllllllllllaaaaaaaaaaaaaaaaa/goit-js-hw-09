@@ -1,1 +1,2 @@
-console.log('form');
+const form = document.querySelector('.feedback-form');
+const formData = { email: "", message: "" };
